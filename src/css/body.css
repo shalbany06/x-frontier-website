@@ -1,0 +1,100 @@
+.left_body{
+    margin-top: 10px;
+    display: flex;
+    width: 40%;
+}
+
+.left_side_text_area{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.left_side_text1{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.left_side_text2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 90%;
+    font-family: 'Anton', sans-serif;
+}
+
+.left_side_text3{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 36px;
+    text-align: left;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    max-width: 2000px;
+}
+
+.right_body{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+}
+
+.headphone{
+    max-height: 500px;
+}
+
+.movement_btn_holder{
+    display: flex;
+    justify-content: center;
+}
+
+.movement_icon{
+    max-height: 50px;
+    margin: 20px;
+}
+
+.right_img_caption{
+    color: gray;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.right_msg{
+    color: white;
+    font-size: 14px;
+    font-family: 'kanit', sans-serif;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8px;
+    margin-top: 2%;
+}
+
+.video_area{
+    display: flex;
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.video_view{
+    min-height: 300px;
+    min-width: 500px;
+    -webkit-box-shadow: 2px 3px 13px 5px rgba(255,255,255,0.72); 
+    box-shadow: 2px 3px 13px 5px rgba(255,255,255,0.72);
+}
